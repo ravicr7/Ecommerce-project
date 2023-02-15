@@ -32,3 +32,6 @@ def handlesignup(request):
 
 def handlesignup(request):
     return redirect('/auth/login')
+
+def randpm():
+    print("samir")
